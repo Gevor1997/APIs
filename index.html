@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript - Ներածություն</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.img {
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			flex-wrap: wrap;
+		}
+		.gallery-item {
+			width: 20%;
+			max-width: 150px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="head">
+			<div class="search">
+				<input type="search" id="username" name="username">
+				<button class="btn" id="search" onclick="makeSearch()" type="button"> Search</button>
+			</div>
+			<div class="img" id="gallery">
+				
+			</div>
+		</div>	
+		<div class="main">
+			<div id="first"></div>
+			<div id="second"></div>
+		</div>	
+		<div class="footer">
+			<div class="box1" >box1</div>
+			<div class="box2" >box2</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+	<script type="text/javascript" src="script/swipe.js"></script>
+
+</body>
+</html>
+
+
